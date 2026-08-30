@@ -10,6 +10,7 @@ export const SITE_CONFIG = {
   github: "https://github.com/AdityaCS06",
   githubUsername: "AdityaCS06",
   linkedin: "https://linkedin.com/in/aditya-kori",
+  instagram: "https://www.instagram.com/aditya_k_kori2003",
   portfolioUrl: "https://aditya-kori-portfolio.vercel.app/",
 };
 

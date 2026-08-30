@@ -72,8 +72,8 @@ const Hero = () => {
                             <a href={SITE_CONFIG.linkedin} target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
                                 <i className='bx bxl-linkedin-square'></i>
                             </a>
-                            <a href={`mailto:${SITE_CONFIG.email}`} className="social-link" aria-label="Email">
-                                <i className='bx bx-envelope'></i>
+                            <a href={SITE_CONFIG.instagram} target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
+                                <i className='bx bxl-instagram'></i>
                             </a>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ const Hero = () => {
                     {/* Hero Text */}
                     <div className="hero-text">
                         <h1 className="hero-title slide-in-right">
-                            Hi, I'm <span className="gradient-text">Aditya</span>
+                            Hi, I'm <span className="gradient-text">Aditya Kumar Kori</span>
                         </h1>
                         <h2 className="hero-subtitle slide-in-right" style={{ animationDelay: '0.2s' }}>
                             <span className="typed-text">{displayText}</span>
