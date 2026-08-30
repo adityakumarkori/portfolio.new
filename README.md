@@ -55,7 +55,7 @@ npm run build
 
 ## 📫 Contact
 - **Email:** dev.adityakori@gmail.com
-- **Phone:** +91-6268572954
+- **Phone:** +91 6268572954
 - **GitHub:** https://github.com/AdityaCS06
 - **LinkedIn:** https://linkedin.com/in/aditya-kori
 

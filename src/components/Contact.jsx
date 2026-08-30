@@ -121,7 +121,7 @@ const Contact = () => {
                         </div>
                     )}
                     <p style={{textAlign:'center', marginTop:'1rem', fontSize:'0.85rem', color:'var(--text-tertiary)'}}>
-                        Or reach me directly: <a href="mailto:dev.adityakori@gmail.com" style={{color:'var(--primary)'}}>dev.adityakori@gmail.com</a> • <a href="tel:+916268572954" style={{color:'var(--primary)'}}>+91-6268572954</a>
+                        Or reach me directly: <a href="mailto:dev.adityakori@gmail.com" style={{color:'var(--primary)'}}>dev.adityakori@gmail.com</a> • <a href="tel:+916268572954" style={{color:'var(--primary)'}}>+91 6268572954</a>
                     </p>
                 </form>
             </div>
