@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="footer-content">
                     {/* Brand */}
                     <div className="footer-brand">
-                        <h2 className="footer-logo gradient-text">Aditya</h2>
+                        <h2 className="footer-logo gradient-text">Aditya Kumar Kori</h2>
                         <p>Backend Developer crafting scalable APIs & robust systems.</p>
                     </div>
 

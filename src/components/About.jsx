@@ -331,7 +331,7 @@ const About = () => {
                         <div className="image-wrapper">
                             <img src={main} alt="Aditya Kumar Kori" />
                             <div className="profile-overlay">
-                                <h4>Aditya Kori</h4>
+                                <h4>Aditya Kumar Kori</h4>
                                 <span className="status-badge">System: Active</span>
                             </div>
                         </div>

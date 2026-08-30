@@ -54,7 +54,7 @@ const Header = () => {
             <div className="container">
                 <div className="header-content">
                     <div className="logo-section" onClick={() => scrollToSection('home')}>
-                        <div className="logo gradient-text">Aditya</div>
+                        <div className="logo gradient-text">Aditya Kumar Kori</div>
                         <div className="status-badge">
                             <span className="status-dot"></span>
                             <span className="status-text">Backend Developer</span>
