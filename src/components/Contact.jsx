@@ -28,7 +28,7 @@ const Contact = () => {
         if (scriptURL.includes('PLACEHOLDER')) {
             setStatus({
                 loading: false,
-                message: 'Contact form not configured yet. Please email adityakori2003425@gmail.com directly. ✉️'
+                message: 'Contact form not configured yet. Please email dev.adityakori@gmail.com directly. ✉️'
             });
             setTimeout(() => setStatus({ loading: false, message: '' }), 6000);
             return;
@@ -57,7 +57,7 @@ const Contact = () => {
             console.error('Error!', error.message);
             setStatus({
                 loading: false,
-                message: 'Oops! Something went wrong. Please try email: adityakori2003425@gmail.com ❌'
+                message: 'Oops! Something went wrong. Please try email: dev.adityakori@gmail.com ❌'
             });
         }
     };
@@ -121,7 +121,7 @@ const Contact = () => {
                         </div>
                     )}
                     <p style={{textAlign:'center', marginTop:'1rem', fontSize:'0.85rem', color:'var(--text-tertiary)'}}>
-                        Or reach me directly: <a href="mailto:adityakori2003425@gmail.com" style={{color:'var(--primary)'}}>adityakori2003425@gmail.com</a> • <a href="tel:+916268572954" style={{color:'var(--primary)'}}>+91-6268572954</a>
+                        Or reach me directly: <a href="mailto:dev.adityakori@gmail.com" style={{color:'var(--primary)'}}>dev.adityakori@gmail.com</a> • <a href="tel:+916268572954" style={{color:'var(--primary)'}}>+91-6268572954</a>
                     </p>
                 </form>
             </div>

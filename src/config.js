@@ -5,7 +5,7 @@ export const SITE_CONFIG = {
   name: "Aditya Kumar Kori",
   shortName: "Aditya",
   title: "Backend Developer",
-  email: "adityakori2003425@gmail.com",
+  email: "dev.adityakori@gmail.com",
   phone: "+91-6268572954",
   github: "https://github.com/AdityaCS06",
   githubUsername: "AdityaCS06",
