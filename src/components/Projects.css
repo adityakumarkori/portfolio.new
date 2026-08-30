@@ -1,0 +1,394 @@
+/* ===================================
+   CLEAN & MODERN PROJECTS SECTION
+   =================================== */
+
+:root {
+    --card-bg-light: rgba(255, 255, 255, 0.03);
+    --card-border-light: rgba(255, 255, 255, 0.1);
+    --primary-color: #6366f1;
+}
+
+.projects-section {
+    padding: 7rem 0 5rem;
+    min-height: 100vh;
+    background-color: transparent; /* Made transparent to inherit global background seamlessly */
+    position: relative;
+    overflow: hidden;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* --- TRADITIONAL YET CLEAN HEADER --- */
+.section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+}
+
+.reveal.active .section-header {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section-tag {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--primary-color);
+    background: rgba(99, 102, 241, 0.1);
+    padding: 0.4rem 1.2rem;
+    border-radius: 50px;
+    margin-bottom: 1.2rem;
+}
+
+.section-title {
+    font-size: clamp(2.2rem, 5vw, 3rem);
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--text-primary, #fff);
+    margin-bottom: 1.2rem;
+    letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--text-secondary, #94a3b8);
+}
+
+/* --- FILTERS (Buttons properly styled) --- */
+.filters-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin-bottom: 3.5rem;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.reveal.active .filters-wrapper {
+    animation: fadeUp 0.6s ease 0.2s forwards;
+}
+
+.filter-btn {
+    background: rgba(255, 255, 255, 0.06);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    padding: 0.6rem 1.6rem;
+    border-radius: 50px;
+    color: var(--text-secondary, #cbd5e1);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: var(--text-primary, #fff);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.filter-btn.active {
+    background: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
+/* --- GRID LAYOUT --- */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* --- PROJECT CARD --- */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--card-bg-light);
+    border: 1px solid var(--card-border-light);
+    opacity: 0;
+    transform: translateY(30px);
+    height: 100%; 
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+    will-change: transform, opacity;
+    box-shadow: 0 15px 35px rgba(32, 24, 43, 0.2);
+}
+
+.reveal.active .project-card {
+    animation: fadeUp 0.6s ease forwards;
+    animation-delay: calc(var(--card-index) * 0.1s + 0.1s);
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* --- IMAGE & HOVER EFFECTS --- */
+.project-image-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/10;
+    overflow: hidden;
+    background: #000;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.05);
+}
+
+.project-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.2) 70%, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.project-card:hover .project-overlay {
+    opacity: 1;
+}
+
+/* Overlay content container */
+.overlay-content {
+    width: 100%;
+    text-align: center;
+}
+
+.overlay-title {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover .overlay-title {
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 0.1s;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    transform: translateY(15px);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover .project-links {
+    transform: translateY(0);
+    opacity: 1;
+    transition-delay: 0.15s;
+}
+
+.project-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(8px);
+}
+
+.project-link i {
+    font-size: 1.1rem;
+}
+
+.project-link.primary {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.project-link.primary:hover {
+    background: #4f46e5;
+    transform: translateY(-2px);
+}
+
+.project-link.secondary:hover {
+    background: white;
+    color: black;
+    transform: translateY(-2px);
+}
+
+/* --- INFO SECTION --- */
+.project-info {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.project-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.project-category-tag {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--primary-color);
+}
+
+.project-position-id {
+    font-family: monospace;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.project-card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-primary, #fff);
+    margin-bottom: 0.6rem;
+    line-height: 1.3;
+}
+
+.project-card-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-secondary, #94a3b8);
+    max-height: 4.8em; /* Exactly 3 lines */
+    overflow: hidden;
+    margin-bottom: auto; 
+}
+
+/* --- EXPAND / COLLAPSE BUTTON --- */
+.expand-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards;
+    animation-delay: 0.5s;
+}
+
+.expand-button {
+    background: rgba(99, 102, 241, 0.15);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: 0.9rem 2.2rem;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.expand-button:hover {
+    background: var(--primary-color);
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+}
+
+/* --- SELECTION LOADER --- */
+.selection-loader-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.expand-button i {
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+}
+
+
+
+.github-cta-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1.2rem 3rem;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    color: #0f172a;
+    font-weight: 800;
+    font-size: 1.05rem;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
+}
+
+.github-cta-btn:hover {
+    background: var(--primary-color);
+    color: #fff;
+    transform: translateY(-6px);
+    box-shadow: 0 15px 40px rgba(99, 102, 241, 0.4);
+}
+
+/* --- STATES --- */
+.state-container {
+    text-align: center;
+    padding: 6rem 0;
+    color: var(--text-secondary, #94a3b8);
+}
+
+.state-text {
+    font-size: 0.95rem;
+}
