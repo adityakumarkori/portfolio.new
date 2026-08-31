@@ -69,7 +69,7 @@ const About = () => {
 
     useEffect(() => {
         const fetchGitHubData = async () => {
-            const CACHE_KEY = 'github_stats_cache_aditya_v1';
+            const CACHE_KEY = `github_stats_cache_${SITE_CONFIG.githubUsername}_v1`;
             const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours
 
             try {
