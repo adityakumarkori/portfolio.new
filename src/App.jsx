@@ -30,7 +30,7 @@ function App() {
                     <Hero />
                     <Projects />
 
-      <GitGalaxyEmbed username="AdityaCS06" height={600} />
+      <GitGalaxyEmbed username="adityakumarkori" height={600} />
       
 
                     <ToolsSection />

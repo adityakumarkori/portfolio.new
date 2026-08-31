@@ -7,7 +7,7 @@
   </p>
   <p align="center">
     <a href="https://aditya-kori-portfolio.vercel.app">Live Demo</a> •
-    <a href="https://github.com/AdityaCS06">GitHub</a> •
+    <a href="https://github.com/adityakumarkori">GitHub</a> •
     <a href="https://linkedin.com/in/aditya-kori">LinkedIn</a>
   </p>
 </div>
@@ -22,7 +22,7 @@ Backend Developer portfolio — B.Tech CSE 8.54 (Baderia Global 2020-24), M.Eng 
 - **Dynamic Project Showcase:** `public/projects.json` — CRM, Jio20, Djangora
 - **Micro-Animations:** scroll reveal hooks, marquee skills, floating particles
 - **Responsive:** mobile → ultra-wide, BoxIcons + Inter
-- **Live GitHub:** `AdityaCS06` momentum + GhChart + GitGalaxy embed
+- **Live GitHub:** `adityakumarkori` momentum + GhChart + GitGalaxy embed
 
 ## 🛠️ Tech Stack
 - **Frontend:** React 18, Vite 6, BoxIcons, Inter, styled-components
@@ -56,7 +56,7 @@ npm run build
 ## 📫 Contact
 - **Email:** dev.adityakori@gmail.com
 - **Phone:** +91 6268572954
-- **GitHub:** https://github.com/AdityaCS06
+- **GitHub:** https://github.com/adityakumarkori
 - **LinkedIn:** https://linkedin.com/in/aditya-kori
 
 ---

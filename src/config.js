@@ -7,14 +7,14 @@ export const SITE_CONFIG = {
   title: "Backend Developer",
   email: "dev.adityakori@gmail.com",
   phone: "+91 6268572954",
-  github: "https://github.com/AdityaCS06",
-  githubUsername: "AdityaCS06",
+  github: "https://github.com/adityakumarkori",
+  githubUsername: "adityakumarkori",
   linkedin: "https://linkedin.com/in/aditya-kori",
   instagram: "https://www.instagram.com/aditya_k_kori2003",
   portfolioUrl: "https://aditya-kori-portfolio.vercel.app/",
 };
 
-export const TOOLS_URL = 'https://adityacs06.github.io/under-construction-page/';
+export const TOOLS_URL = 'https://adityakumarkori.github.io/under-construction-page/';
 // TODO: Replace with your own Google Apps Script deployment URL
 // Create a script at https://script.google.com and deploy as Web App
 export const CONTACT_SCRIPT_URL = 'https://script.google.com/macros/s/PLACEHOLDER_ADITYA_CONTACT/exec';

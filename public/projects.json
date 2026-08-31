@@ -7,8 +7,8 @@
       "title": "CRM System with Integrated Inventory Management",
       "description": "Full-featured CRM with organization, project, task & inventory modules. REST APIs with multi-user RBAC, optimized PostgreSQL queries for performance.",
       "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400",
-      "github": "https://github.com/AdityaCS06/crm-inventory-system",
-      "demo": "https://github.com/AdityaCS06/crm-inventory-system",
+      "github": "https://github.com/adityakumarkori/crm-inventory-system",
+      "demo": "https://github.com/adityakumarkori/crm-inventory-system",
       "category": ["top", "all"]
     },
     {
@@ -18,8 +18,8 @@
       "title": "Jio20 – Digital Product E-Commerce Platform",
       "description": "High-traffic e-commerce backend for digital products. Coupon reward & time-based redemption logic, scalable APIs handling concurrent transactions.",
       "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400",
-      "github": "https://github.com/AdityaCS06/jio20-ecommerce",
-      "demo": "https://github.com/AdityaCS06/jio20-ecommerce",
+      "github": "https://github.com/adityakumarkori/jio20-ecommerce",
+      "demo": "https://github.com/adityakumarkori/jio20-ecommerce",
       "category": ["top", "new", "all"]
     },
     {
@@ -29,8 +29,8 @@
       "title": "Djangora – Agora Energy Dashboard (Germany)",
       "description": "Secure backend APIs for analytics & visualization dashboards. API key generation & management for secure access control.",
       "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400",
-      "github": "https://github.com/AdityaCS06/djangora-energy-dashboard",
-      "demo": "https://github.com/AdityaCS06/djangora-energy-dashboard",
+      "github": "https://github.com/adityakumarkori/djangora-energy-dashboard",
+      "demo": "https://github.com/adityakumarkori/djangora-energy-dashboard",
       "category": ["top", "new", "all"]
     },
     {
@@ -40,8 +40,8 @@
       "title": "FastAPI Enterprise Boilerplate",
       "description": "Production-ready FastAPI starter with JWT auth, RBAC, PostgreSQL, Redis caching, Docker & Stripe/Razorpay/PayPal integrations.",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400",
-      "github": "https://github.com/AdityaCS06/fastapi-boilerplate",
-      "demo": "https://github.com/AdityaCS06/fastapi-boilerplate",
+      "github": "https://github.com/adityakumarkori/fastapi-boilerplate",
+      "demo": "https://github.com/adityakumarkori/fastapi-boilerplate",
       "category": ["top", "all"]
     },
     {
@@ -50,8 +50,8 @@
       "title": "PostgreSQL Query Optimizer Lab",
       "description": "Schema design & query optimization experiments showcasing index strategies and performance tuning for enterprise workloads.",
       "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400",
-      "github": "https://github.com/AdityaCS06/pg-optimizer-lab",
-      "demo": "https://github.com/AdityaCS06/pg-optimizer-lab",
+      "github": "https://github.com/adityakumarkori/pg-optimizer-lab",
+      "demo": "https://github.com/adityakumarkori/pg-optimizer-lab",
       "category": ["new", "all"]
     },
     {
@@ -60,8 +60,8 @@
       "title": "Django RBAC Auth Service",
       "description": "Reusable Django auth microservice with role-based access control, JWT, API key management and multi-tenant support.",
       "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400",
-      "github": "https://github.com/AdityaCS06/django-rbac-service",
-      "demo": "https://github.com/AdityaCS06/django-rbac-service",
+      "github": "https://github.com/adityakumarkori/django-rbac-service",
+      "demo": "https://github.com/adityakumarkori/django-rbac-service",
       "category": ["all"]
     },
     {
@@ -70,8 +70,8 @@
       "title": "Redis Inventory Realtime Sync",
       "description": "Real-time inventory sync service using Redis pub/sub and PostgreSQL, supporting stock operations with low latency.",
       "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400",
-      "github": "https://github.com/AdityaCS06/redis-inventory-sync",
-      "demo": "https://github.com/AdityaCS06/redis-inventory-sync",
+      "github": "https://github.com/adityakumarkori/redis-inventory-sync",
+      "demo": "https://github.com/adityakumarkori/redis-inventory-sync",
       "category": ["new", "all"]
     },
     {
@@ -80,8 +80,8 @@
       "title": "Payment Gateway Integration Suite",
       "description": "Unified payment abstraction over Stripe, Razorpay & PayPal with webhook handling, idempotency & secure transaction logs.",
       "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400",
-      "github": "https://github.com/AdityaCS06/payment-gateway-suite",
-      "demo": "https://github.com/AdityaCS06/payment-gateway-suite",
+      "github": "https://github.com/adityakumarkori/payment-gateway-suite",
+      "demo": "https://github.com/adityakumarkori/payment-gateway-suite",
       "category": ["all"]
     }
   ]
