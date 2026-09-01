@@ -86,7 +86,7 @@ const Skills = () => {
                     <div className="skills-visual">
                         <div className="visual-card glass-card">
                             <img
-                                src="https://i.pinimg.com/originals/54/1f/1c/541f1c2e739aac67a89026fe0def22eb.gif"
+                                src="/mygif.gif"
                                 alt="Creative Visual"
                                 className="pinterest-gif"
                             />

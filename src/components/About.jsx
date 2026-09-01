@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import './About.css';
 import { SITE_CONFIG } from '../config';
-import main from '../assets/main.png';
+import main from '../assets/my_main.png';
 
 // --- Animated Counter Hook/Component ---
 const AnimatedNumber = ({ value, duration = 1200, suffix = "" }) => {
@@ -346,7 +346,7 @@ const About = () => {
                         <div className="tech-mini-grid">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="FastAPI" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
                         </div>
                     </div>
